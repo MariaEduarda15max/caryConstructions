@@ -2,19 +2,28 @@ body {
     color: #000005;
     background-color: blanchedalmond;
 }
-.container {
-    width: 400px;
-}
-img {
+
+.logo {
     width: 60%;
     float: right;
     
 }
 .second {
     clear: right;
+    justify-content: flex-end;
 }
 .logo-carys {
     margin-right: 20px;
     margin-top: 15px;
     width: 100px;
 }
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
