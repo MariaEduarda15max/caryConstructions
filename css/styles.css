@@ -27,3 +27,6 @@ div.scroll-container {
   div.scroll-container img {
     padding: 10px;
   }
+  .mb-0 {
+    color: rgb(250, 248, 248);
+  }
