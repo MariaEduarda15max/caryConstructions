@@ -6,7 +6,10 @@ body {
 .logo {
     width: 60%;
     float: right;
-    
+  height: 50px; /* tamaño en pantallas grandes */
+  width: auto;
+  max-width: 100%; /* para que no desborde en pantallas chicas */
+  margin-right: 10px;
 }
 .second {
     clear: right;
@@ -24,8 +27,13 @@ div.scroll-container {
     padding: 10px;
   }
   
-  div.scroll-container img {
+  .scroll-container img {
     padding: 10px;
+    flex-shrink: 0;
+    width: 600px; /* tamaño por defecto */
+    height: auto; /* que mantenga proporción */
+    max-width: 100%; /* no pase el tamaño de la pantalla */
+  border-radius: 8px;
   }
   .mb-0 {
     color: rgb(250, 248, 248);
